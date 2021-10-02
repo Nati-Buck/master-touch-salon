@@ -1,10 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
-end
-
 activate :external_pipeline,
   :name => 'gulp',
   :command => (build? ? 'node_modules/.bin/gulp build' : 'node_modules/.bin/gulp'),
