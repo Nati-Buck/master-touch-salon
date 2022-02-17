@@ -41,7 +41,7 @@ For more info on [SSH key passphrase](https://help.github.com/en/github/authenti
 ## Now let get this project running
 1. `rbenv exec gem install bundler`
 2. `rbenv exec bundle install`
-3. `nom install`
+3. `npm install`
 4. `rbenv exec middleman`
 
 Then you should see the site at localhost:4567
