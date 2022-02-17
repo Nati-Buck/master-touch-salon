@@ -4,6 +4,7 @@ title: Masters Touch Salon
 ---
 
 <div class="jumbotron jumbotron-home m-0" style="background-image: url(images/waiting-room.jpeg);">
+  <div class="bg-overlay" > </div>
   <%= partial "partials/svg/grey-logo-est" %>
   <a class="button-schedule border-0 font-futura-bold d-sm-none" href="https://www.schedulicity.com/scheduling/mtsuya" target="_blank">Book Your Appointment</a>
   <button class="button-schedule border-0 font-futura-bold d-none d-sm-block" href="#" type="button" data-toggle="modal" data-target="#exampleModal">Book Your Appointment</button>
@@ -34,26 +35,23 @@ title: Masters Touch Salon
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-lg-6" id="owner">
-      <div class="row">
-        <div class="col-md-6 home-img-box img-fluid" style="background-image: url(images/owner.jpg)"></div>
-        <div class="col-md-6 home-text-box py-5 px-3">
-          <p class="text-uppercase font-futura">Owner</p>
-          <p>Deya Masters and her family have continuously updated and improved the space and services over the last 14 years to make sure that the salon always offers a best-in-class experience for its customers.</p>
-        </div>
-      </div>
+  <div class="row" id="owner">
+  <div class="col-md-6 home-text-box py-5 px-3">
+  <p class="text-uppercase font-futura">Owner</p>
+  <p>Deya Masters and her family have continuously updated and improved the space and services over the last 16 years to make sure that the salon always offers a best-in-class experience for its customers.</p>
+  </div>
+  <div class="col-md-6 home-img-box img-fluid" style="background-image: url(images/owner.jpg)"></div>
+  </div>
+  
+  
+ 
+  <div class="row" id="barber">
+    <div class="col-md-6 home-img-box d-md-none d-lg-block img-fluid" style="background-image: url(images/barber.jpg)"></div>
+    <div class="col-md-6 home-text-box py-5 px-3">
+      <p class="text-uppercase font-futura">Barber</p>
+      <p>Masters Touch Salon also offers in-house barber services in a dedicated barber suite, designed to make the manliest men feel at home despite being in a “salon".</p>
     </div>
-    <div class="col-lg-6" id="barber">
-      <div class="row">
-        <div class="col-md-6 home-img-box d-md-none d-lg-block img-fluid" style="background-image: url(images/barber.jpg)"></div>
-        <div class="col-md-6 home-text-box py-5 px-3">
-          <p class="text-uppercase font-futura">Barber</p>
-          <p>Masters Touch Salon also offers in-house barber services in a dedicated barber suite, designed to make the manliest men feel at home despite being in a “salon".</p>
-        </div>
-        <div class="col-md-6 home-img-box d-none d-md-block d-lg-none img-fluid" style="background-image: url(images/barber.jpg)"></div>
-      </div>
-    </div>
+    <div class="col-md-6 home-img-box d-none d-md-block d-lg-none img-fluid" style="background-image: url(images/barber.jpg)"></div>
   </div>
 
   <div class="row" id="services">
