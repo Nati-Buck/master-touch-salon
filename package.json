@@ -19,5 +19,8 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.49.8",
     "sass-loader": "^12.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
   }
 }
