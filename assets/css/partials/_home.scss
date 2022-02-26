@@ -6,9 +6,14 @@
   
   &.sm-contain {
     background-size: contain;
-    height: 375px;
-
+    background-position: top;
+    height: 300px;
+    
     @include media-breakpoint-up(sm) {
+      height: 450px;
+    }
+    
+    @include media-breakpoint-up(md) {
       background-size: cover;
     }
   }
