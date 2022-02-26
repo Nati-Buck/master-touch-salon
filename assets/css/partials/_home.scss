@@ -1,21 +1,11 @@
 .home-img-box {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  
-  &.sm-contain {
-    background-size: contain;
-    background-position: top;
-    height: 300px;
-    
-    @include media-breakpoint-up(sm) {
-      height: 450px;
-    }
-    
-    @include media-breakpoint-up(md) {
-      background-size: cover;
-    }
+  max-height: 600px;
+  padding: 0;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
   }
 }
 
